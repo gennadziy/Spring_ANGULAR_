@@ -45,7 +45,6 @@ public class EmployeeController {
 	public List<Mode> getAllMode() {
 		return modeRepo.findAll();
 	}
-
 	@GetMapping("/employees")
 	public List<Employee> getAllEmployees() {
 		return employeeRepository.findAll();
