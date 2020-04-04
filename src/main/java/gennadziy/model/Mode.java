@@ -1,11 +1,5 @@
 package gennadziy.model;
 
-/*
-@Author Gennadziy GITHUB/gennadziy
-Class name: Mode
-Date: 2020-04-03
-Time: 12:48
-*/
 
 import lombok.Data;
 

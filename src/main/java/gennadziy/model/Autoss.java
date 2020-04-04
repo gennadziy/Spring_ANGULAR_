@@ -13,9 +13,8 @@ import java.util.Date;
 @Table
 public class Autoss {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
-//    @Size(min = 4, max = 6)
     private String name;
 
     @Temporal(TemporalType.DATE)
